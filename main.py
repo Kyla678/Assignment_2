@@ -17,7 +17,8 @@ CS1430_MEETINGS_PER_SEMESTER = 45
 
 def cost_per_semester(annual_cost):
     """Give back what one semester costs."""
-    return 0
+    semester_cost = annual_cost / SEMESTERS_PER_YEAR
+    return semester_cost
 
 
 def cost_per_month(annual_cost):
@@ -51,8 +52,9 @@ def main():
 
         choice = input("Choose an option: ")
 
-        if choice == "Q":
+        if(choice == "Q"):
             break
+        elif(choice == "1"):
 
         # Add a branch for each menu option here.
 
