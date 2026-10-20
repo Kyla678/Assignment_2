@@ -48,6 +48,8 @@ def main():
     # Ask for the total cost for one year here.
     # Then ask for the credits this semester.
 
+float(input("Enter the total cost for one year: "))
+
     while True:
         print("1. Cost per semester")
         print("2. Cost per month")
@@ -63,6 +65,9 @@ def main():
         if(choice == "Q"):
             break
         elif(choice == "1"):
+            semester = cost_per_semester(annual_cost)
+            print(f"One semester costs ${semester:,.2f}.")
+
 
         # Add a branch for each menu option here.
 
