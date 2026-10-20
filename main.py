@@ -23,7 +23,8 @@ def cost_per_semester(annual_cost):
 
 def cost_per_month(annual_cost):
     """Give back what one month of the academic year costs."""
-    return 0
+    monthly_cost = annual_cost / MONTHS_PER_YEAR
+    return monthly_cost
 
 
 def cost_per_day(annual_cost):
@@ -48,6 +49,13 @@ def main():
     # Then ask for the credits this semester.
 
     while True:
+        print("1. Cost per semester")
+        print("2. Cost per month")
+        print("3. Cost per day")
+        print("4. Cost per credit")
+        print("5. Cost per class")
+        print("6.   ")
+        print("Q. Quit")
         # Show your menu here.
 
         choice = input("Choose an option: ")
