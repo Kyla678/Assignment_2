@@ -5,6 +5,7 @@ All of your Python for this assignment goes in this file.
 The student guide explains what to build. Run check.py to test your work.
 """
 
+
 # ---- CONSTANTS: do not change ----
 SEMESTERS_PER_YEAR = 2
 MONTHS_PER_YEAR = 9
@@ -14,6 +15,7 @@ CS1430_MEETINGS_PER_SEMESTER = 45
 
 
 # ---- FUNCTIONS: replace each return 0 ----
+
 
 def cost_per_semester(annual_cost):
     """Give back what one semester costs."""
@@ -44,6 +46,8 @@ def cost_per_class(annual_cost, credits):
     credit_cost = cost_per_credit(annual_cost, credits)
     cs1430_cost = credit_cost * CS1430_CREDITS / CS1430_MEETINGS_PER_SEMESTER
     return cs1430_cost
+
+
 def cost_per_skipped_class(annual_cost, credits, skipped_classes):
     """Give back what skipping a class costs."""
     class_cost = cost_per_class(annual_cost, credits)
