@@ -4,11 +4,11 @@ Points : 40 / 40  (from check.py; counts only when the Git and GitHub checks pas
 CS 1430 Assignment 2: The Cost of College
 GitHub user : Kyla678
 Repository  : https://github.com/Kyla678/Assignment_2
-Commit      : c4568450374759bd450745d63f4a4f77d82584c1
-Message     : Final Update???
+Commit      : 022f61c6cab02916a5b65ecbc474a2f5aa013ba2
+Message     : I hope this works
 Author      : Kyla Pulkrabek <pulkrabekky@uwplatt.edu>
-Committed   : 2026-10-20T19:39:19-05:00
-Checked     : 2026-10-20 19:40:53 Central Daylight Time
+Committed   : 2026-10-20T19:57:26-05:00
+Checked     : 2026-10-20 19:57:51 Central Daylight Time
 Python      : 3.14.7
 
 ================================================================
@@ -51,7 +51,7 @@ Enter the total cost for one year: Enter the number of credits this semester: 1.
 3. Cost per day
 4. Cost per credit
 5. Cost per class
-6.   
+6. Cost per skipped class
 Q. Quit
 Choose an option: One semester costs $7,300.50.
 1. Cost per semester
@@ -59,7 +59,7 @@ Choose an option: One semester costs $7,300.50.
 3. Cost per day
 4. Cost per credit
 5. Cost per class
-6.   
+6. Cost per skipped class
 Q. Quit
 Choose an option: One month costs $1,622.33.
 1. Cost per semester
@@ -67,7 +67,7 @@ Choose an option: One month costs $1,622.33.
 3. Cost per day
 4. Cost per credit
 5. Cost per class
-6.   
+6. Cost per skipped class
 Q. Quit
 Choose an option: One class day costs $97.34.
 1. Cost per semester
@@ -75,7 +75,7 @@ Choose an option: One class day costs $97.34.
 3. Cost per day
 4. Cost per credit
 5. Cost per class
-6.   
+6. Cost per skipped class
 Q. Quit
 Choose an option: One credit costs $486.70.
 1. Cost per semester
@@ -83,7 +83,7 @@ Choose an option: One credit costs $486.70.
 3. Cost per day
 4. Cost per credit
 5. Cost per class
-6.   
+6. Cost per skipped class
 Q. Quit
 Choose an option: One CS 1430 class meeting costs $32.45.
 1. Cost per semester
@@ -91,6 +91,6 @@ Choose an option: One CS 1430 class meeting costs $32.45.
 3. Cost per day
 4. Cost per credit
 5. Cost per class
-6.   
+6. Cost per skipped class
 Q. Quit
 Choose an option:
